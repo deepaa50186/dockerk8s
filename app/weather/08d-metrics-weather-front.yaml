@@ -47,7 +47,7 @@ spec:
             name: elastic-apm-agent          
           env:
             - name: spring.application.name
-              value: weather-front
+              value: weather-front-deepa
             - name: spring.datasource.url
               valueFrom:
                 configMapKeyRef:
